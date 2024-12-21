@@ -92,7 +92,7 @@ const Weather = () => {
                     weatherData && <>
                         <div className="text-white flex flex-col items-center">
                             <img src={weatherData.icon} alt="" className='w-[150px] my-[30px] mx-0' />
-                            <p className='font-medium text-6xl tracking-wider '>{weatherData.temprature}°</p>
+                            <p className='font-medium text-6xl tracking-wider '>{weatherData.temprature}°c</p>
                             <p className='font-medium text-4xl mt-2'>{weatherData.location}</p>
                         </div>
                         <div className="text-white flex justify-between pt-5">
